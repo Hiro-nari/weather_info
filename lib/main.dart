@@ -2,15 +2,10 @@
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:geolocator/geolocator.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:weather_info/screens/home_screen.dart';
 import 'package:weather_info/screens/weather_screen.dart';
-
-import 'common/utils.dart';
-import 'data_class/location.dart';
 import 'main.gr.dart';
-import 'package:geocoding/geocoding.dart' as geoCoding;
 
 
 

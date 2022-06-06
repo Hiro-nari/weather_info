@@ -64,7 +64,7 @@ Widget  _handleIcon(BuildContext context, Weather weather) {
 
     if(weather.main.contains("晴")){
       return const Icon(Icons.wb_sunny,size: 30.0,);
-    }else if(weather.main.contains("曇")){
+    }else if(weather.main.contains("曇") || weather.main.contains("雲")){
       return const Icon(Icons.cloud,size: 30.0,);
     }else if(weather.main.contains("雨")) {
       return const Icon(Icons.umbrella,size: 30.0,);

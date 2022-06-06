@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:weather_info/common/position_repository.dart';
-import 'package:weather_info/common/weather_repository.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:weather_info/data_class/location.dart';
 
